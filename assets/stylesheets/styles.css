@@ -1,0 +1,114 @@
+/* Cloud MeX Styles
+-----------------------------------------------------------*/
+
+	body{
+		background: #EEEEEE;
+		font-family: 'Verdana', sans-serif;
+	}
+
+/* FLYOUTS
+-----------------------------------------------------*/
+
+	.flyout {
+		font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;		
+		font-size: 11px;
+		
+		position: absolute;
+		left: 50%;
+		margin-top: 20px;
+		margin-left: -650px;
+		height: 750px;
+		width: 1300px;
+		padding: 9px 11px;
+
+		background-color: white;		
+		background: rgba(255, 255, 255, 0.9);
+		
+		-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+		-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+		box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+		
+		border: 1px solid #c5c5c5;		
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	.flyout #tip {
+		background-image: url('images/tip.png');
+		background-repeat: no-repeat;
+		background-size: auto;
+		height: 11px;
+		position: absolute;
+		top: -11px;
+		left: 25px;
+		width: 20px;
+	}
+
+	.flyout h1 {
+		text-indent: 20px;
+		text-transform: uppercase;
+		color: #666;
+		font-size: 2em; 
+		padding-bottom: 5px;
+		margin-bottom: 12px;
+		border-bottom: 1px solid #dcdbda;
+	}
+
+/*
+	.flyout h1 {
+		text-transform: uppercase;
+		color: #666;
+		font-size: 1.2em; 
+		padding-bottom: 5px;
+		margin-bottom: 12px;
+		border-bottom: 1px solid #dcdbda;
+	}
+*/	
+
+	.flyout p { 
+		padding-bottom: 25px; font-size: 1.1em; color: #222; 
+	}
+
+
+/* SENSELS
+-----------------------------------------------------*/
+
+	.container{
+		position: absolute;
+		left: 50%;
+		margin-left: -640px;
+	}
+
+	.sensel{
+		position: absolute;
+		width: 20px;
+		height: 20px;
+
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EEEEEE;
+	}
+
+
+/* CONTROLS
+--------------------------------------------------------*/
+	.color_range{
+		width: 50px;
+		padding: 4px;
+
+		border-radius: 4px;
+
+		text-align: center;
+		font-size: 1.2em;
+		font-weight: thick;
+	}
+
+	button{
+		padding: 4px;	
+		border-radius: 4px;
+
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: thick;
+	}
